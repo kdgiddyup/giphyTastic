@@ -16,7 +16,7 @@ function renderButtons(){
 
 function renderImages(){
 	$("#imagesArea").empty();
-	queryURL = 'http://api.giphy.com/v1/gifs/search?q='+encodeURI($(this).text())+'&limit=10&api_key=dc6zaTOxFJmzC';
+	queryURL = 'https://api.giphy.com/v1/gifs/search?q='+encodeURI($(this).text())+'&limit=10&api_key=dc6zaTOxFJmzC';
 	$.ajax({
     method: "GET",
     url: queryURL,
