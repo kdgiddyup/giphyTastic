@@ -1,0 +1,10 @@
+#buttonsArea {
+	margin: 30px 0;
+}
+.imagesBlock {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.imagesBlock img {
+	height: 200px;
+}
